@@ -1,14 +1,57 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
   font-weight: 300;
   font-style: normal;
   line-height: 1.42;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.42;
+}
+
+h2, h5, h6 { 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 1.42;
+}
+
+h3 {  font-family: 'Muli', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.42; }
+
+h6 {  font-family: 'Muli', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.42; }
+
+p {font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.42;
+}
+
+h4 { 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  font-style: oblique;
+  line-height: 1.42;
+}
+
+h5 { 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 23px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;

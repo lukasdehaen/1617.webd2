@@ -8,21 +8,381 @@ html, body {
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
+  background: rgb(#EEE) ;
   background-size: cover;
 
-  color: rgba(232,234,246 ,1);
+  color: rgb(#000);
+
+}
+
+a:active {
+    color: #EF452F
+}
+a:hover {
+    color: #EF452F
+}
+a {
+    color: #F89D52
+} 
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #0F0F22;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    display: block;
+    color: #FFF;
+    text-align: center;
+    padding: 30px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    color: #F89D52 ;
+}
+
+/* Add a color to the active/current link */
+.topnav a:active , .topnav a.selected {
+    color: #EF452F;
+}
+
+#logowit {
+    float: left;
+    padding: 20px 30px
+}
+#bannerimg {
+
+    float: center;
+    width: 100%;
+    margin: auto ;
+}
+
+/*footer */ 
+
+#footerwave {
+    align: center;
+    width: 100%;
+    padding: 100px 0px 0px 0px;
+margin: 0;
+   border: 0;
+}
+#footercontent {
+    background-color: #0F0F22;
+margin-top: -10px;
+   padding: 20px;
+   border: 0;
+}
+
+#footerlogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 200px;
+}
+
+.linklogo {
+
+    height: 20px;
+    
+}
+
+#links  {
+    width: 155px;
+    padding: 10px 0px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+#styleguidelinks {
+    background-color: #0F0F22 ;
+    padding: 20px 60px;
+    
+}
+#normal {
+    color: #FFF
+}
+#active {
+    color: #EF452F
+}
+#hover {
+    color: #F89D52 
+}
+
+#imgindex {
+    width:700px;
+    display: inline;
+    margin-left: 100px;
+    z-index: 0;
+    box-shadow: 10px 10px 30px #DDD;
+
+} 
+
+#borderboxleft {
+    margin: 60px;
+    float: left; 
+    display: inline;
+}
+#bordertextleft {
+    background-color: #FFF;
+    color: #000; 
+    width: 800px;
+    padding: 20px 30px;
+    border: 20px;
+    border-color: rgba (10, 10, 10, 0);
+    outline: solid 8px;
+    outline-offset: 20px; 
+    outline-color: #000;
+    margin: 30px;
+    float: left; 
+    box-shadow: 10px 10px 30px #DDD;
+  
+}
+
+#borderboxright {
+    margin:100px;
+    text-align: right;
+    float: right; 
+    display: inline;
+    margin-top: -500px;
+    z-index: 50;
+    position: relative;
+}
+#bordertextright {
+    background-color: #FFF;
+    color: #000; 
+    width: 700px;
+    padding: 20px 30px;
+    border: 20px;
+    border-color: rgba (10, 10, 10, 0);
+    outline: solid 8px;
+    outline-offset: 40px; 
+    outline-color: #000;
+    margin: 30px;
+    float: right; 
+    box-shadow: 10px 10px 30px #DDD;
+    text-align: right;
+    z-index: 50;
 }
 
 .intro {
-  width: 90vw;
+    width: 100%;
+    padding: 60px;
+}
+#centeredtext {
+    text-align: center;
+    width: 800px;
+    margin: auto; 
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
 
-  padding: 1rem;
-  margin-top: 1rem;
+#styleguidebody {
+      width: 100%;
+  padding: 60px;
+}
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+
+
+#notes{
+    margin: 60px;
+    text-align: left;
+    float: left; 
+    display: block;
+}
+#notestext {
+    background-color: #FFF;
+    color: #000; 
+    width: 800px;
+    padding: 20px 30px;
+    border: 20px;
+    border-color: rgba (10, 10, 10, 0);
+    outline: solid 8px;
+    outline-offset: 20px; 
+    outline-color: #000;
+    margin: 30px;
+    float: left; 
+    box-shadow: 10px 10px 30px #DDD;
+    text-align: center;
+}
+
+#client {
+    text-align: right
+}
+
+
+#sblacktitle {
+    color: white;
+    background-color: #0F0F22;
+    box-shadow: 10px 10px 30px #DDD;
+    padding: 20px 20px;
+    width: 250px;
+    float: left;
+    margin: 20px
+}
+#swhitetitle {
+    background-color: white;
+    box-shadow: 10px 10px 30px #DDD;
+    padding: 20px 20px;
+    width: 260px;
+    float: left;
+    margin: 20px
+
+}
+
+#indexpara {
+    float: center;
+    width: 1350px;
+    margin: auto;
+}
+
+
+
+
+/*About*/ 
+
+#imgabout {
+    display: block;
+    width: 1000px;
+    float: center;
+     margin: auto;
+    margin-top: 60px ;
+   
+}
+#whitetitles {
+    position: relative;
+    z-index: 1000;
+    left: 500px;
+    top: -220px;
+    background-color: white;
+    box-shadow: 10px 10px 30px #555;
+    width: 400px;
+    padding: 20px
+
+}
+#aboutbanner {
+    float: center;
+    width: 1000px;
+    margin: auto;
+    display: block;
+}
+
+#ralign{
+    text-align: right;
+    padding-left: 200px;
+    margin-bottom: 150px;
+
+}
+#blacktitle {
+    color: white;
+    background-color: #0F0F22;
+    box-shadow: 10px 10px 30px #DDD;
+    padding: 20px 20px;
+    width: 230px;
+    float: left;
+    margin-bottom: 300px;
+}
+
+#theteam {
+    margin: auto;
+    width: 1000px;
+    margin-bottom:600px;
+}
+#headshots {
+    margin-top: -700px;
+    width: 1200px;
+    margin: auto; 
+    float: center;
+}
+
+.hs {
+   float: left;
+    width: 300px;
+    text-align: right;
+    margin: 50px;
+}
+
+.hsimg {
+    width: 300px;
+     box-shadow: 10px 10px 30px #CCC;
+}
+
+#whitetitlesp {
+    position: relative;
+    z-index: 1000;
+    left: 675px;
+    top: -220px;
+    background-color: white;
+    box-shadow: 10px 10px 30px #AAA;
+    width: 210px;
+    padding: 20px
+}
+
+#imgportfolio {
+    display: block;
+    width: 1000px;
+    float: center;
+     margin: auto;
+    margin-top: 60px ;
+box-shadow: 10px 10px 50px #EEE;
+}
+
+#portfolio {
+    width: 1050px;
+    margin: auto;
+}
+
+#pi1.hover {background-image: url('img/pf1h.png')}
+#pi2:hover {background-image: url('img/pf2h.png')}
+#pi3:hover {background-image: url('img/pf3h.png')}
+#pi4:hover {background-image: url('img/pf4h.png')}
+#pi5:hover {background-image: url('img/pf5h.png')}
+#pi6:hover {background-image: url('img/pf6h.png')}
+#pi7:hover {background-image: url('img/pf7h.png')}
+#pi8:hover {background-image: url('img/pf8h.png')}
+#pi9:hover {background-image: url('img/pf9h.png')}
+#pi10:hover {background-image: url('img/pf10h.png')}
+
+#borderboxthin1 {
+    margin:50px;
+    text-align: right;
+    float: left; 
+    display: inline;
+}
+#bordertextthin1 {
+    background-color: #FFF;
+    color: #000; 
+    width: 250px;
+    height: 400px;
+    padding: 15px 22px;
+    border: 15px;
+    border-color: rgba (10, 10, 10, 0);
+    outline: solid 8px;
+    outline-offset: 30px; 
+    outline-color: #000;
+    margin: 30px;
+    float: right; 
+    box-shadow: 10px 10px 30px #DDD;
+    text-align: left;
+    z-index: 50;
+
+}
+
+#centeredtext2 {
+    text-align: center;
+    width: 1000px;
+    margin: auto; 
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+#services {
+    width: 1300px;
+    margin: auto; 
 }
