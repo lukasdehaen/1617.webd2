@@ -22,7 +22,8 @@ a:hover {
     color: #EF452F
 }
 a {
-    color: #F89D52
+    color: #F89D52;
+    text-decoration: none;
 } 
 
 /* Add a black background color to the top navigation */
@@ -150,19 +151,19 @@ margin-top: -10px;
     text-align: right;
     float: right; 
     display: inline;
-    margin-top: -500px;
+    margin-top: -450px;
     z-index: 50;
     position: relative;
 }
 #bordertextright {
     background-color: #FFF;
     color: #000; 
-    width: 700px;
+    width: 500px;
     padding: 20px 30px;
     border: 20px;
     border-color: rgba (10, 10, 10, 0);
     outline: solid 8px;
-    outline-offset: 40px; 
+    outline-offset: 30px; 
     outline-color: #000;
     margin: 30px;
     float: right; 
@@ -177,10 +178,10 @@ margin-top: -10px;
 }
 #centeredtext {
     text-align: center;
-    width: 800px;
+    width: 600px;
     margin: auto; 
     margin-top: 80px;
-    margin-bottom: 120px;
+    margin-bottom: 80px;
 }
 
 #styleguidebody {
@@ -238,7 +239,7 @@ margin-top: -10px;
 
 #indexpara {
     float: center;
-    width: 1350px;
+    width: 1100px;
     margin: auto;
 }
 
@@ -258,11 +259,11 @@ margin-top: -10px;
 #whitetitles {
     position: relative;
     z-index: 1000;
-    left: 500px;
+    left: 630px;
     top: -220px;
     background-color: white;
     box-shadow: 10px 10px 30px #555;
-    width: 400px;
+    width: 300px;
     padding: 20px
 
 }
@@ -304,7 +305,7 @@ margin-top: -10px;
     background-color: #0F0F22;
     box-shadow: 10px 10px 30px #DDD;
     padding: 20px 20px;
-    width: 230px;
+    width: 180px;
     float: left;
     margin-bottom: -200px;
 }
@@ -389,10 +390,19 @@ box-shadow: 10px 10px 50px #EEE;
 
 #centeredtext2 {
     text-align: center;
-    width: 1000px;
+    width: 800px;
     margin: auto; 
     margin-top: 80px;
     margin-bottom: 120px;
+    background-color: #0F0F22;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.intro2 {
+    background-color: #0F0F22;
+    margin-top: -100px;
 }
 
 #services {
@@ -411,4 +421,66 @@ box-shadow: 10px 10px 50px #EEE;
 
 #bgimg {
     width: 100%
+}
+
+#bg2 {
+    position: absolute;
+    z-index: -1000;
+    width: 100%;
+    top: 700px;
+    height: 100%;
+}
+
+#bgimg {
+    width: 100%
+}
+
+#whitetitlesc {
+    position: relative;
+    z-index: 1000;
+    left: 800px;
+    top: -220px;
+    background-color: white;
+    box-shadow: 10px 10px 30px #555;
+    width: 150px;
+    padding: 20px
+}
+
+#clients {
+
+    width: 1020px;
+    margin: auto;
+
+    }
+
+.client {
+    margin: 25px;
+}
+
+#blacktitlekoi {
+    color: white;
+    background-color: #0F0F22;
+    box-shadow: 10px 10px 30px #DDD;
+    padding: 20px 20px;
+    width: 210px;
+    margin-bottom: 100px;
+}
+#koiproject {
+    margin: auto;
+    width: 1050px;
+    margin-bottom:200px;
+    margin-top: 200px;
+    align: top;
+}
+
+#koi {
+    margin: 25px;
+    box-shadow: 10px 10px 30px #DDD;
+    vertical-align: top;
+}
+
+#koibio {
+    width: 600px;
+   
+    vertical-align: right;
 }

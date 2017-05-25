@@ -16,14 +16,14 @@ h1 {
 
 h2, h5, h6 { 
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;
 }
 
 h3 {  font-family: 'Muli', sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 300;
   font-style: normal;
   line-height: 1.42; }
@@ -35,7 +35,7 @@ h6 {  font-family: 'Muli', sans-serif;
   line-height: 1.42; }
 
 p {font-family: 'Muli', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 300;
   font-style: normal;
   line-height: 1.42;
