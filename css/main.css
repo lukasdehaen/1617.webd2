@@ -103,7 +103,10 @@ margin-top: -10px;
 }
 
 #styleguidelinks {
-    background-color: #0F0F22 ;
+background-image: -webkit-gradient(linear, top, bottom, from(#0F0F22 ), to(#171547));
+background-image: -webkit-linear-gradient(top, #0F0F22, #171547);
+background-image: -moz-linear-gradient(top, #0F0F22, #171547);
+background-image: linear-gradient(to bottom, #0F0F22, #171547);
     padding: 20px 60px;
     
 }
@@ -511,7 +514,7 @@ padding-bottom: 100px;
        * element that contains the map. */
 #map {
         height: 500px;
-        margin-top: 100px;
+        margin-top: 0px;
         
       }
 
@@ -673,4 +676,11 @@ input:focus, textarea:focus {
 .submit:hover .ease{
   width:100%;
   background-color:white;
+}
+
+#sgparagraph {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
