@@ -72,14 +72,14 @@ a {
     align: center;
     width: 100%;
     padding: 100px 0px 0px 0px;
-margin: 0;
-   border: 0;
+    margin: 0;
+    border: 0;
 }
 #footercontent {
     background-color: #0F0F22;
-margin-top: -10px;
-   padding: 20px;
-   border: 0;
+    margin-top: -10px;
+    padding: 20px;
+    border: 0;
 }
 
 #footerlogo {
@@ -90,9 +90,7 @@ margin-top: -10px;
 }
 
 .linklogo {
-
     height: 20px;
-    
 }
 
 #links  {
@@ -134,20 +132,20 @@ background-image: linear-gradient(to bottom, #0F0F22, #171547);
     float: left; 
     display: inline;
 }
+
 #bordertextleft {
     background-color: #FFF;
     color: #000; 
     width: 800px;
     padding: 20px 30px;
     border: 20px;
-    border-color: rgba (10, 10, 10, 0);
+    border-color: rgba (0, 0, 0, 0);
     outline: solid 8px;
     outline-offset: 20px; 
     outline-color: #000;
     margin: 30px;
     float: left; 
     box-shadow: 10px 10px 30px #DDD;
-  
 }
 
 #borderboxright {
@@ -392,6 +390,26 @@ box-shadow: 10px 10px 50px #EEE;
 
 }
 
+#borderboxthin2 {
+    margin:50px;
+    text-align: right;
+    float: left; 
+    display: inline;
+}
+#bordertextthin2 {
+    background-color: #FFF;
+    color: #000; 
+    width: 250px;
+    height: 400px;
+    padding: 15px 22px;
+
+    margin: 30px;
+    float: right; 
+    box-shadow: 10px 10px 30px #DDD;
+    text-align: left;
+    z-index: 50;
+
+}
 #centeredtext2 {
     text-align: center;
     width: 800px;
